@@ -2,12 +2,12 @@ import type { SocialsObject } from "./types";
 
 export const SITE = {
   website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  author: "Clayton Castro",
+  desc: "A little blog for documenting my technical journey.",
+  title: "claytonc.dev",
   ogImage: "default-og.png",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 10,
 };
 
 export const LOGO_IMAGE = {
