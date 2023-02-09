@@ -20,31 +20,31 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialsObject = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    active: true,
-  },
-  {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/clanktron/",
     active: true,
   },
   {
     name: "Linkedin",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/claytonc-dev/",
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    active: false,
+    href: "mailto:hello@claytonc.dev",
+    active: true,
   },
   {
     name: "Twitter",
+    href: "https://twitter.com/clank_blank",
+    active: true,
+  },
+  {
+   name: "Instagram",
+   href: "https://github.com/satnaing/astro-paper",
+   active: false,
+  },
+  {
+    name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     active: false,
   },
