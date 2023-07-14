@@ -1,10 +1,10 @@
 import type { SocialsObject } from "./types";
 
 export const SITE = {
-  website: "https://astro-paper.pages.dev/",
+  website: "https://blog.claytonc.dev/",
   author: "Clayton Castro",
   desc: "A little blog for documenting my technical journey.",
-  title: "claytonc.dev",
+  title: "Blog",
   ogImage: "default-og.png",
   lightAndDarkMode: true,
   postPerPage: 10,

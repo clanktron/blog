@@ -29,11 +29,6 @@ const { noMarginTop = false } = Astro.props;
         ))
       }
     </div>
-    <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="separator">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
-    </div>
   </div>
 </footer>
 
@@ -42,7 +37,7 @@ const { noMarginTop = false } = Astro.props;
     @apply w-full;
   }
   .footer-wrapper {
-    @apply py-6 sm:py-4 flex flex-col sm:flex-row-reverse justify-between items-center;
+    @apply py-6 sm:py-4 flex flex-col sm:flex-row justify-center items-center;
   }
   .link-button {
     @apply p-2 my-1 hover:rotate-6;
