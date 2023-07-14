@@ -1,13 +1,16 @@
 {
-  "name": "astro-paper",
-  "version": "1.0.1",
+  "name": "blog",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "clean": "rm -rf node_modules/ dist/",
+    "build-container": "nerdctl build . -t clanktron/blog",
+    "push-container": "nerdctl push clanktron/blog"
   },
   "dependencies": {
     "@astrojs/rss": "^1.0.1",
