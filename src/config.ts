@@ -19,6 +19,11 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialsObject = [
   {
+    name: "PGP",
+    href: "https://keys.openpgp.org/search?q=hello%40claytonc.dev",
+    active: true,
+  },
+  {
     name: "Github",
     href: "https://github.com/clanktron/",
     active: true,

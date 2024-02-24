@@ -21,6 +21,7 @@ export type SocialIcons = {
 };
 
 export type SocialMedia =
+  | "PGP"
   | "Github"
   | "Facebook"
   | "Instagram"
