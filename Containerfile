@@ -4,7 +4,6 @@ WORKDIR /build
 RUN npm install
 RUN npm run build
 
-FROM nginx:alpine3.17
+FROM cgr.dev/chainguard/nginx:latest
 COPY --from=builder /build/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 8080
